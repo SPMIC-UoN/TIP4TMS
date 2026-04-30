@@ -133,7 +133,7 @@ The final landmark file should look like the image below. The first line corresp
 <a id="background-threshold-definition"></a>
 ## Background Threshold Definition
 
-Another mandatory input to the TIP4TMS pipeline is an integer number defining the threshold between background and foreground in the T1-weighted structural image. In general terms, the procedure to determine this number is as follows:
+Another input to the TIP4TMS pipeline is an integer number defining the threshold between background and foreground in the T1-weighted structural image (optionally computed automatically). In general terms, the procedure to determine this number is as follows:
 
 1. Open the file `<brc_output_path>/<subject id>/analysis/anatMRI/T1/processed/data/T1.nii.gz` in your favourite NIFTI image viewer.
 
