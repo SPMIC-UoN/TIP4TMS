@@ -108,7 +108,7 @@ The usage of tip4tms.sh is as follows:
 <a id="landmark-definition"></a>
 ## Landmark Definition
 
-The BRIGhTMIND processing pipeline requires as input a text file with the location in mm of the nasion, left preauricular point and right preauricular point. In order to create this file, open the file `<brc_output_path>/<subject id>/analysis/anatMRI/T1/processed/data/T1.nii.gz` in your favourite NIFTI image viewer.
+The TIP4TMS processing pipeline requires as input a text file with the location in mm of the nasion, left preauricular point and right preauricular point. In order to create this file, open the file `<brc_output_path>/<subject id>/analysis/anatMRI/T1/processed/data/T1.nii.gz` in your favourite NIFTI image viewer.
 
 ### Location of the nasion
 
@@ -133,7 +133,7 @@ The final landmark file should look like the image below. The first line corresp
 <a id="background-threshold-definition"></a>
 ## Background Threshold Definition
 
-Another mandatory input to the BRIGhTMIND pipeline is an integer number defining the threshold between background and foreground in the T1-weighted structural image. In general terms, the procedure to determine this number is as follows:
+Another mandatory input to the TIP4TMS pipeline is an integer number defining the threshold between background and foreground in the T1-weighted structural image. In general terms, the procedure to determine this number is as follows:
 
 1. Open the file `<brc_output_path>/<subject id>/analysis/anatMRI/T1/processed/data/T1.nii.gz` in your favourite NIFTI image viewer.
 
