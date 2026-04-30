@@ -14,7 +14,7 @@
 
 The Target Identification Pipeline for Transcranial Magnetic Stimulation (TIP4TMS) is a simplification of the [pipeline](https://github.com/SPMIC-UoN/brightmind_pipeline) used in the BRIGhTMIND study (e.g. no global signal regression is implemented and only one imaging-based target based on fMRI connectivity is generated).
 
-In contrast to the aforementioned pipeline, TIP4TMS can generate a taget based on either functional or effective connectivity.
+In contrast to the aforementioned pipeline, TIP4TMS can generate a target based on either functional or effective connectivity.
 
 <a id="prerequisities"></a>
 ## Prerequisities
