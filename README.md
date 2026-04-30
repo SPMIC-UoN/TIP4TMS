@@ -1,4 +1,4 @@
-# BRIGhTMIND Trial Processing Pipeline
+# Target Identification Pipeline for Transcranial Magnetic Stimulation
 
 ## Table of Contents
 
